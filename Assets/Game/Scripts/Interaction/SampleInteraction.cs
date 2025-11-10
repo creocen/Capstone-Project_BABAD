@@ -7,17 +7,17 @@ namespace Core.Interactions
     public class SampleInteraction : MonoBehaviour, IInteractable
     {
         [Header("Info")]
-        [SerializeField] private string npcName;
+        [SerializeField] private string objName;
         //[SerializeField] private GameObject DialogueBox;
         [SerializeField] GameStateManager stateManager;
 
-        public string InteractionPrompt => $"Press [E] to interact with {npcName}.";
+        public string InteractionPrompt => $"Press [E] to interact with {objName}.";
         public Transform Transform => this.transform;
 
         public void Interact(GameObject player)
         {
-            SceneManager.LoadScene("TowerStacking Testing");
-            stateManager.StartTowerBuilding();
+            // Insert logic here
+
         }
     }
 }
