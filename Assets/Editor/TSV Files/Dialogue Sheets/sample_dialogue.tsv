@@ -1,0 +1,34 @@
+#Dialogue ID	Character Name	Dialogue Line	Next Line (Dialogue ID)	Dialogue Choices	Connecting Line (Dialogue ID)	Character Emotion	Type	Hide Portrait	Hide Display Name	Is End?
+CH1_SampleScene_01	JubertPandecoco	Hubert, receive mo, oh!				Serious	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01	HubertPandesal	What should I do...		Set|Dive|Bump	CH1_SampleScene_01_0|CH1_SampleScene_01_1|CH1_SampleScene_01_2	Nervous	Default	FALSE	FALSE	FALSE
+								FALSE	FALSE	FALSE
+CH1_SampleScene_01_0	JubertPandecoco	NC set bro				Happy	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_0	HubertPandesal	i gotchu bro				Happy	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_0		JubertPandecoco and HubertPandesal won the match. 					Default	TRUE	TRUE	FALSE
+CH1_SampleScene_01_0		JubertPandecoco is Match MVP.					Default	TRUE	TRUE	TRUE
+								FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	JubertPandecoco	Go near the net, bro. I'll set for you!				Serious	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	HubertPandesal	Bro, your set is too high man :/				Disappointed	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	JubertPandecoco	Nah bro, you just jumped too early				Angry	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	HubertPandesal	?				Angry	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	JubertPandecoco	?				Angry	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	HubertPandesal	?				Angry	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	JubertPandecoco	?				Angry	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	HubertPandesal	?				Angry	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1	JubertPandecoco	?				Angry	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_1		The girls are fighting...					Default	TRUE	TRUE	FALSE
+CH1_SampleScene_01_1		JubertPandecoco disconnected.					Default	TRUE	TRUE	FALSE
+CH1_SampleScene_01_1	HubertPandesal	oh NAURR		Leave the match too|Stay	CH1_SampleScene_01_1_0|CH1_SampleScene_01_1_1	Thinking	Default	FALSE	FALSE	FALSE
+								FALSE	FALSE	FALSE
+CH1_SampleScene_01_1_0		HubertPandesal deranks back to Bronze III.					Default	TRUE	TRUE	TRUE
+										
+CH1_SampleScene_01_1_1		JubertPandecoco came back and they won the match.					Default	TRUE	TRUE	FALSE
+CH1_SampleScene_01_1_1		HubertPandesal is Match MVP.					Default	TRUE	TRUE	TRUE
+								FALSE	FALSE	FALSE
+CH1_SampleScene_01_2	JubertPandecoco	No bump >:(				Annoyed	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_2	HubertPandesal	MB				FeelsBadMan	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_2	JubertPandecoco	all g, don't bump next time!				Neutral	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_2		Game plays out and they lost.					Default	TRUE	TRUE	FALSE
+CH1_SampleScene_01_2	JubertPandecoco	Unlucky.				Disappointed	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_2	JubertPandecoco	ggs				Disappointed	Default	FALSE	FALSE	FALSE
+CH1_SampleScene_01_2	HubertPandesal	ggs				Disappointed	Default	TRUE	TRUE	TRUE
