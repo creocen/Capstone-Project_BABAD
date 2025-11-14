@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Ball
   - Paddle
+  tags: []
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Ground
   - Water
   - UI
   - 
