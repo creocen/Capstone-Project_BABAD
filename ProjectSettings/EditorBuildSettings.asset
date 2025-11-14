@@ -5,9 +5,35 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Game/Scenes/User Interface/TitleScreen.unity
+    guid: ae8c23cf9ae0ea24ca9bd3f482958ea5
+  - enabled: 1
+    path: Assets/Game/Scenes/User Interface/ChapterSelect.unity
+    guid: fe06d0fef7fb627449f83331b130e8ff
+  - enabled: 1
+    path: Assets/Game/Scenes/User Interface/Settings.unity
+    guid: f6ffb2ef6b9d45d46a3c46e8f7868ecf
+    path: Assets/Game/Scenes/Testing Mechanics/Input  Testing.unity
+    guid: e92053a262a37c84f865c05d03aae4ee
+  - enabled: 1
+    path: Assets/Game/Scenes/Testing Mechanics/Loop-Anomaly Test.unity
+    guid: 5121640f0e1d74f45a526f730cecc2fb
+  - enabled: 1
+    path: Assets/Game/Scenes/Testing Mechanics/Placeholder Scenes for Loop-Anomaly/Iteration
+      1.unity
+    guid: 2f644052fe25b214580aae2ddd9f4594
+  - enabled: 1
+    path: Assets/Game/Scenes/Testing Mechanics/Placeholder Scenes for Loop-Anomaly/Iteration
+      2.unity
+    guid: b5ebcabf0135b8648adac052d2bef39d
+  - enabled: 1
+    path: Assets/Game/Scenes/Testing Mechanics/Placeholder Scenes for Loop-Anomaly/Iteration
+      3.unity
+    guid: dda79d072ad736549b6502a62ccde6d2
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 1f1d25d1a046f254c81d5dfab2195bcc, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2e987f970d770cd40ae190a5a22b3351, type: 3}
